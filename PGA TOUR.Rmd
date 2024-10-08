@@ -1,0 +1,38 @@
+---
+title: "PGA-Tour-Performance-Prediction-Using-Linear-Regression"
+output: html_notebook
+---
+PGA Tour Performance Prediction Using Linear Regression
+Project Overview
+This project uses linear regression to analyze and predict the future performance of PGA Tour players based on historical performance metrics. By focusing on key statistics like strokes gained per round, we aim to forecast how players might perform in future rounds.
+
+Technologies Used
+Python: For data analysis, modeling, and visualization.
+Pandas: For data cleaning and manipulation.
+Matplotlib: For creating visualizations of actual vs predicted data.
+scikit-learn: For implementing the linear regression model.
+Dataset
+The dataset includes player performance statistics such as:
+
+SG_per_round: Strokes Gained per Round.
+Rounds Played: Total rounds played by the player.
+Approach the Green Metrics: Performance data on approach shots.
+We clean and prepare this data to ensure it is in the correct format for modeling.
+
+Project Workflow
+1. Data Preparation
+Clean the dataset to ensure all features are numeric and free of missing values.
+Scale the features to prepare them for modeling.
+2. Linear Regression Modeling
+Use scikit-learn to fit a linear regression model to the dataset.
+Analyze how player performance metrics (like strokes gained) can predict future outcomes.
+3. Model Evaluation
+Evaluate the model using metrics such as:
+Mean Squared Error (MSE): Measures how well the model predicts.
+R-squared: Indicates how much of the variation in performance is explained by the model.
+4. Visualization
+Visualize the actual vs predicted values for strokes gained per round to assess the model’s accuracy.
+Conclusion
+This project demonstrates how linear regression can be used to analyze and predict PGA Tour player performance. By using simple modeling techniques, we can gain insights into future performance trends based on historical data.
+
+
